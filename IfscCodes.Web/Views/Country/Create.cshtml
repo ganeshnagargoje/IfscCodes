@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Create Country";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
+}
+<script src="@Url.Content("~/Content/bootstrap-validations/validator.js")"></script>
+
+<h2>@ViewBag.Title</h2>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">@ViewBag.Title</h3>
+    </div>
+    <div class="panel-body">
+        <form id="createCountry" action="@Url.Content("~/Country/Create")" method="post"  role="form">
+            <table class="table">
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="CountryName" class="control-label">Country Name</label>
+                            <input type="text" id="CountryName" class="form-control" placeholder="Country Name" required />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="CountryCode" class="control-label">Country Code</label>
+                            <input type="text" id="CountryCode" class="form-control" placeholder="Country Code" required />
+                       </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="btn btn-success" aria-label="Left Align" id="btnSave">
+                            Save
+                        </button>
+                        <button type="button" class="btn btn-danger" aria-label="Left Align" id="btnReset">
+                            Reset
+                        </button>
+                    </td>
+                <tr>
+                    <td colspan="3">
+                        <a class="btn btn-primary" href="@Url.Content("~/Country/Index")">Back</a>
+                    </td>
+                   
+                </tr>
+
+            </table>
+        </form>
+        </div>
+</div>
+<script type="text/javascript">
+
+    $("#btnSave").click(function () {
+        $("#createCountry").validator();
+    });
+
+    $("#btnReset").click(function () {
+        $("#CountryName").val('');
+        $("#CountryCode").val('');
+    });
+
+</script>

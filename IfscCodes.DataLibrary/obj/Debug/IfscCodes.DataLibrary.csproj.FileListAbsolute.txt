@@ -1,0 +1,9 @@
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\IfscCodes.DataLibrary.dll.config
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\IfscCodes.DataLibrary.dll
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\IfscCodes.DataLibrary.pdb
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\EntityFramework.dll
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\EntityFramework.xml
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\obj\Debug\IfscCodes.DataLibrary.dll
+C:\Ganesh Workspace\Training Material\IfscCodes\IfscCodes.DataLibrary\obj\Debug\IfscCodes.DataLibrary.pdb

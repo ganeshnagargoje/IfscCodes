@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfscCodes.DataLibrary", "IfscCodes.DataLibrary\IfscCodes.DataLibrary.csproj", "{82E73299-6C7C-449D-9374-762682AF081A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfscCodes.Web", "IfscCodes.Web\IfscCodes.Web.csproj", "{F19F24BA-1970-4CDC-B688-3EECD20E7385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E73299-6C7C-449D-9374-762682AF081A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{82E73299-6C7C-449D-9374-762682AF081A}.Release|x86.ActiveCfg = Release|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F19F24BA-1970-4CDC-B688-3EECD20E7385}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
